@@ -1,4 +1,4 @@
-#Simple portscanner by Ak47, newbie in python 2016.
+#Simple portscanner by Ak47
 
 import optparse
 from socket import *

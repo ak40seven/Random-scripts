@@ -24,5 +24,5 @@ for x in range(1,81):  #<--- Type port range to scan...
 
 
 #Super easy port scanner by Ak47, don't laugh...
-
+#Very nice program my friend :D
 

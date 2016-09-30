@@ -12,7 +12,8 @@ def pscan(port):
     except:
         return False
 
-for x in range(1,81):  #<--- Type port range to scan...
+#Type port range to scan...
+for x in range(1,81):
     if pscan(x):
         print('Port',x,'is open!!!    *****')
     else:

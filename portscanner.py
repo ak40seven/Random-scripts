@@ -1,3 +1,4 @@
+print ('Hello and welcome to Ak47s very awesome program forked by PPW21.')
 import socket
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -24,5 +25,6 @@ for x in range(1,81):  #<--- Type port range to scan...
 
 
 #Super easy port scanner by Ak47, don't laugh...
+# :D
 
 

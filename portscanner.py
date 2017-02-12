@@ -1,12 +1,19 @@
 print ('Hello and welcome to Ak47s very awesome program forked by PPW21.')
 import socket
 
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-server = '192.168.1.1'
+
+server =raw_input 'IP/URL to scan'
 #Insert an URL or an IP Adress to scan above...
+
+
+#Or, you could prompt the user for IP if you prefer
+#server=raw_input("Which IP do you want to scan?:")
+
 def pscan(port):
     try:
+        s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         s.connect((server,port))
+        s.close()
         return True
     except:
         return False

@@ -23,3 +23,6 @@ for x in range(1,81):
         print('Port',x,'is open!!!    *****')
     else:
         print('Port',x,'is closed')
+
+#Super easy port scanner by Ak47, don't laugh...
+#Very nice program my friend :D

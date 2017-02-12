@@ -1,3 +1,4 @@
+#common.txt is required for Brutee! You find it in my master branch.
 import requests
 from threading import Thread
 import sys

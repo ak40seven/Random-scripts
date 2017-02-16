@@ -1,7 +1,7 @@
-# scripts
+# Python scripts
 Python scripts made by me for educational purpose.
 Feel free to download and use them.
 
-# Peace Ak47.
+# Peace ak47.
 
 
